@@ -1,3 +1,20 @@
+# Modern Material
+
+A WIP extension of Google's Material Design Lite.
+
+## Build
+
+```bash
+bun install
+bun run build
+```
+
+## Goals
+
+- [X] Fix Build Issues
+- [ ] Add Dark Mode
+- [ ] Modernize Color, Typography, and Layout
+
 # Material Design Lite
 
 [![GitHub version](https://badge.fury.io/gh/google%2Fmaterial-design-lite.svg)](https://badge.fury.io/gh/google%2Fmaterial-design-lite)
