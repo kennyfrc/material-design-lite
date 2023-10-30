@@ -183,6 +183,9 @@ $ripple-bg-color: unquote("rgb(#{$color-light-contrast})") !default;
 
 $layout-nav-color: unquote("rgb(#{$palette-grey-300})") !default;
 
+// Content
+$layout-content-bg-color: unquote("rgb(#{$palette-slate-100})") !default;
+
 // Drawer
 $layout-drawer-bg-color: unquote("rgb(#{$palette-grey-50})") !default;
 $layout-drawer-border-color: unquote("rgb(#{$palette-grey-300})") !default;
