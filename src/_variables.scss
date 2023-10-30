@@ -64,8 +64,8 @@
    We should be able to improve on this once CSS Font Loading L3 becomes more
    widely available.
 */
-$preferred_font: 'Roboto', 'Helvetica', 'Arial', sans-serif !default;
-$performance_font: 'Helvetica', 'Arial', sans-serif !default;
+$preferred_font: 'Satoshi Variable', Inter, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif !default;
+$performance_font: 'Satoshi Variable', Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 
 /* ==========  COLORS  ========== */
 
@@ -91,8 +91,8 @@ $trim-color-classes: false !default;
 
 // Use color primarily for emphasis. Choose colors that fit with
 // your brand and provide good contrast between visual components.
-$color-primary: $palette-indigo-500 !default;
-$color-primary-dark: $palette-indigo-700 !default;
+$color-primary: $palette-indigo-A100 !default;
+$color-primary-dark: $palette-indigo-A200 !default;
 $color-accent: $palette-pink-A200 !default;
 
 // Our primary is dark, so use $color-dark-contrast for overlaid text.
@@ -115,7 +115,7 @@ $color-accent-contrast: $color-dark-contrast !default;
 // text-color-secondary. For light themes, use text-color-primary-inverse
 // and text-color-secondary-inverse.
 
-$text-color-primary: unquote("rgba(#{$color-black}, 0.87)") !default;
+$text-color-primary: unquote("rgb(#{$color-black})") !default;
 $text-link-color: unquote("rgb(#{$color-accent})") !default;
 
 // Define whether to target elements directly for typographic enhancements.
@@ -187,7 +187,7 @@ $layout-nav-color: unquote("rgb(#{$palette-grey-300})") !default;
 $layout-drawer-bg-color: unquote("rgb(#{$palette-grey-50})") !default;
 $layout-drawer-border-color: unquote("rgb(#{$palette-grey-300})") !default;
 $layout-text-color: unquote("rgb(#{$palette-grey-800})") !default;
-$layout-drawer-navigation-color: #757575 !default;
+$layout-drawer-navigation-color: unquote("rgb(#{$palette-slate-A100})") !default;
 $layout-drawer-navigation-link-active-background: unquote("rgb(#{$palette-grey-300})") !default;
 $layout-drawer-navigation-link-active-color: unquote("rgb(#{$color-light-contrast})") !default;
 
@@ -250,9 +250,10 @@ $input-text-error-color: unquote("rgb(#{$palette-red-A700})") !default;
 $card-background-color: unquote("rgb(#{$color-white})") !default;
 $card-text-color: unquote("rgb(#{$color-black})") !default;
 $card-image-placeholder-color: unquote("rgb(#{$color-accent})") !default;
-$card-supporting-text-text-color: unquote("rgba(#{$color-black}, 0.54)") !default;
+$card-supporting-text-text-color: unquote("rgb(#{$palette-slate-A100})") !default;
 $card-border-color: rgba(0,0,0,0.1) !default;
 $card-subtitle-color: unquote("rgba(#{$color-black}, 0.54)") !default;
+$card-border-radius: 0.33rem !default;
 
 /* ==========  Sliders ========== */
 
@@ -479,7 +480,7 @@ $button-min-width: 64px !default;
 $button-height: 36px !default;
 $button-padding: 16px !default;
 $button-margin: 4px !default;
-$button-border-radius: 2px !default;
+$button-border-radius: 0.33rem !default;
 
 $button-fab-size: 56px !default;
 $button-fab-size-mini: 40px !default;

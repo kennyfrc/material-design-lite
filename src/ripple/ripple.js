@@ -155,7 +155,7 @@
         this.element_.addEventListener('mousedown',
           this.boundDownHandler);
         this.element_.addEventListener('touchstart',
-            this.boundDownHandler);
+            this.boundDownHandler, { passive: true }); // TODO: [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive.
 
         this.boundUpHandler = this.upHandler_.bind(this);
         this.element_.addEventListener('mouseup', this.boundUpHandler);
