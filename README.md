@@ -14,6 +14,11 @@ bun run build
 - [X] Fix Build Issues
 - [ ] Add Dark Mode
 - [ ] Modernize Color, Typography, and Layout
+- [ ] Update Tests
+
+## Why not Material Components for Web or Material 3?
+
+The lite version is far more maintainable and easier to work with. Material 3 isn't to my liking -- Material 2 is far more professional and clean.
 
 # Material Design Lite
 
