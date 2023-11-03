@@ -37,6 +37,7 @@
   cursor: default;
   color: $list-main-text-text-color;
   overflow: hidden;
+  font-weight: $mm-font-weight-medium;
 
   & .mdl-list__item-primary-content {
     order: 0;

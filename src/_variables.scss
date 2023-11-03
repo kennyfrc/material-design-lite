@@ -64,8 +64,8 @@
    We should be able to improve on this once CSS Font Loading L3 becomes more
    widely available.
 */
-$preferred_font: 'Switzer Variable', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif !default;
-$performance_font: 'Switzer Variable', Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+$preferred_font: 'Satoshi Variable', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+$performance_font: 'Satoshi Variable', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 
 /* ==========  COLORS  ========== */
 
@@ -280,7 +280,7 @@ $progress-fallback-buffer-color: unquote("rgb(#{$palette-slate-200})") !default;
 
 /* ==========  List ========== */
 
-$list-main-text-text-color: unquote("rgb(#{$palette-slate-900})") !default;
+$list-main-text-text-color: unquote("rgb(#{$palette-slate-A100})") !default;
 $list-supporting-text-text-color: unquote("rgb(#{$palette-slate-600})") !default;
 $list-icon-color: unquote("rgb(#{$palette-slate-700})") !default;
 $list-avatar-color: unquote("rgb(#{$palette-slate-50})") !default;
@@ -473,7 +473,7 @@ $card-supporting-text-line-height: 18px !default;
 
 $card-actions-font-size: 16px !default;
 
-$card-title-text-font-weight: 400 !default;
+$card-title-text-font-weight: $mm-font-weight-medium !default;
 $card-z-index: 1 !default;
 
 /* Cover image */
