@@ -198,7 +198,7 @@ $layout-content-bg-color: unquote("rgb(#{$color-secondary})") !default;
 $layout-drawer-bg-color: linear-gradient(to bottom, unquote("rgb(#{$color-secondary})"), unquote("rgb(#{$color-secondary-dark})")) !default;
 $layout-drawer-border-color: unquote("rgb(#{$palette-slate-500})") !default;
 $layout-text-color: unquote("rgb(#{$palette-slate-A200})") !default;
-$layout-drawer-navigation-color: unquote("rgb(#{$palette-slate-A100})") !default;
+$layout-drawer-navigation-color: unquote("rgb(#{$palette-slate-A200})") !default;
 $layout-drawer-navigation-link-active-background: unquote("rgb(#{$palette-slate-800})") !default;
 $layout-drawer-navigation-link-active-color: unquote("rgb(#{$color-light-contrast})") !default;
 
