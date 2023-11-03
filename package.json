@@ -18,6 +18,7 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "build": "bash ./buildjs.sh && sass src/material-design-lite.scss src/material.temp.css && postcss --use autoprefixer -o dist/material.css src/material.temp.css && rm src/material.temp.css && rm src/material.temp.css.map"
+    "build": "bash ./buildjs.sh && sass src/material-design-lite.scss src/material.temp.css && postcss --use autoprefixer -o dist/material.css src/material.temp.css && rm src/material.temp.css && rm src/material.temp.css.map",
+    "watch": "sass --watch src/material-design-lite.scss dist/material.css"
   }
 }

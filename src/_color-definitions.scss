@@ -19,6 +19,94 @@
 // Color order: 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, A100, A200,
 // A400, A700.
 
+// updated radix colors
+$palette-sky:
+"249,254,255" // sky1: #f9feff
+"241,250,253" // sky2: #f1fafd
+"225,246,253" // sky3: #e1f6fd
+"209,240,250" // sky4: #d1f0fa
+"190,231,245" // sky5: #bee7f5
+"169,218,237" // sky6: #a9daed
+"141,202,227" // sky7: #8dcae3
+"96,179,215"  // sky8: #60b3d7
+"124,226,254" // sky9: #7ce2fe
+"116,218,248" // sky10: #74daf8
+"0,116,158"   // sky11: #00749e
+"29,62,86";   // sky12: #1d3e56
+
+$palette-sky-50: nth($palette-sky, 1);
+$palette-sky-100: nth($palette-sky, 2);
+$palette-sky-200: nth($palette-sky, 3);
+$palette-sky-300: nth($palette-sky, 4);
+$palette-sky-400: nth($palette-sky, 5);
+$palette-sky-500: nth($palette-sky, 6);
+$palette-sky-600: nth($palette-sky, 7);
+$palette-sky-700: nth($palette-sky, 8);
+$palette-sky-800: nth($palette-sky, 9);
+$palette-sky-900: nth($palette-sky, 10);
+$palette-sky-A100: nth($palette-sky, 11);
+$palette-sky-A200: nth($palette-sky, 12);
+
+$palette-indigo:
+"253,253,254"
+"247,249,255"
+"237,242,254"
+"225,233,255"
+"210,222,255"
+"193,208,255"
+"171,189,249"
+"141,164,239"
+"62,99,221"
+"51,88,212"
+"58,91,199"
+"31,45,92"
+"21,35,67"
+"48,63,159";
+
+$palette-indigo-50: nth($palette-indigo, 1);
+$palette-indigo-100: nth($palette-indigo, 2);
+$palette-indigo-200: nth($palette-indigo, 3);
+$palette-indigo-300: nth($palette-indigo, 4);
+$palette-indigo-400: nth($palette-indigo, 5);
+$palette-indigo-500: nth($palette-indigo, 6);
+$palette-indigo-600: nth($palette-indigo, 7);
+$palette-indigo-700: nth($palette-indigo, 8);
+$palette-indigo-800: nth($palette-indigo, 9);
+$palette-indigo-900: nth($palette-indigo, 10);
+$palette-indigo-A100: nth($palette-indigo, 11);
+$palette-indigo-A200: nth($palette-indigo, 12);
+$palette-indigo-A400: nth($palette-indigo, 13);
+$palette-indigo-A700: nth($palette-indigo, 14);
+
+$palette-slate:
+"252,252,253"
+"249,249,251"
+"240,240,243"
+"232,232,236"
+"224,225,230"
+"217,217,224"
+"205,206,214"
+"185,187,198"
+"139,141,152"
+"128,131,141"
+"96,100,108"
+"28,32,36";
+
+$palette-slate-50: nth($palette-slate, 1);
+$palette-slate-100: nth($palette-slate, 2);
+$palette-slate-200: nth($palette-slate, 3);
+$palette-slate-300: nth($palette-slate, 4);
+$palette-slate-400: nth($palette-slate, 5);
+$palette-slate-500: nth($palette-slate, 6);
+$palette-slate-600: nth($palette-slate, 7);
+$palette-slate-700: nth($palette-slate, 8);
+$palette-slate-800: nth($palette-slate, 9);
+$palette-slate-900: nth($palette-slate, 10);
+$palette-slate-A100: nth($palette-slate, 11);
+$palette-slate-A200: nth($palette-slate, 12);
+
+// old
+
 $palette-red:
 "255,235,238"
 "255,205,210"
@@ -142,37 +230,6 @@ $palette-deep-purple-A100: nth($palette-deep-purple, 11);
 $palette-deep-purple-A200: nth($palette-deep-purple, 12);
 $palette-deep-purple-A400: nth($palette-deep-purple, 13);
 $palette-deep-purple-A700: nth($palette-deep-purple, 14);
-
-$palette-indigo:
-"253,253,254"
-"247,249,255"
-"237,242,254"
-"225,233,255"
-"210,222,255"
-"193,208,255"
-"171,189,249"
-"141,164,239"
-"62,99,221"
-"51,88,212"
-"58,91,199"
-"31,45,92"
-"21,35,67"
-"48,63,159";
-
-$palette-indigo-50: nth($palette-indigo, 1);
-$palette-indigo-100: nth($palette-indigo, 2);
-$palette-indigo-200: nth($palette-indigo, 3);
-$palette-indigo-300: nth($palette-indigo, 4);
-$palette-indigo-400: nth($palette-indigo, 5);
-$palette-indigo-500: nth($palette-indigo, 6);
-$palette-indigo-600: nth($palette-indigo, 7);
-$palette-indigo-700: nth($palette-indigo, 8);
-$palette-indigo-800: nth($palette-indigo, 9);
-$palette-indigo-900: nth($palette-indigo, 10);
-$palette-indigo-A100: nth($palette-indigo, 11);
-$palette-indigo-A200: nth($palette-indigo, 12);
-$palette-indigo-A400: nth($palette-indigo, 13);
-$palette-indigo-A700: nth($palette-indigo, 14);
 
 $palette-blue:
 "227,242,253"
@@ -587,38 +644,11 @@ $palette-blue-grey-700: nth($palette-blue-grey, 8);
 $palette-blue-grey-800: nth($palette-blue-grey, 9);
 $palette-blue-grey-900: nth($palette-blue-grey, 10);
 
-$palette-slate:
-"252,252,253"
-"249,249,251"
-"240,240,243"
-"232,232,236"
-"224,225,230"
-"217,217,224"
-"205,206,214"
-"185,187,198"
-"139,141,152"
-"128,131,141"
-"96,100,108"
-"28,32,36";
-
-$palette-slate-50: nth($palette-slate, 1);
-$palette-slate-100: nth($palette-slate, 2);
-$palette-slate-200: nth($palette-slate, 3);
-$palette-slate-300: nth($palette-slate, 4);
-$palette-slate-400: nth($palette-slate, 5);
-$palette-slate-500: nth($palette-slate, 6);
-$palette-slate-600: nth($palette-slate, 7);
-$palette-slate-700: nth($palette-slate, 8);
-$palette-slate-800: nth($palette-slate, 9);
-$palette-slate-900: nth($palette-slate, 10);
-$palette-slate-A100: nth($palette-slate, 11);
-$palette-slate-A200: nth($palette-slate, 12);
+/* colors.scss */
+$styleguide-generate-template: false !default;
 
 $color-black: nth($palette-slate, 12);
 $color-white: nth($palette-slate, 1);
-
-/* colors.scss */
-$styleguide-generate-template: false !default;
 
 // The two possible colors for overlayed text.
 $color-dark-contrast: $color-white !default;

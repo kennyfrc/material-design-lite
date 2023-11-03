@@ -59,7 +59,7 @@ body {
   bottom: auto;
   position: relative;
   font-size: 56px;
-  font-weight: 300;
+  font-weight:  $mm-font-weight-light;
   line-height: 1;
   letter-spacing: -0.02em;
 
@@ -68,7 +68,7 @@ body {
   }
 
   span {
-    font-weight: 300;
+    font-weight: $mm-font-weight-light;
   }
 }
 

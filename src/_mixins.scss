@@ -25,7 +25,7 @@
 @mixin typo-display-4($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 112px;
-  font-weight: 300;
+  font-weight: $mm-font-weight-light;
   line-height: 1;
   letter-spacing: -0.04em;
 
@@ -37,7 +37,7 @@
 @mixin typo-display-3($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 56px;
-  font-weight: 400;
+  font-weight: $mm-font-weight;
   line-height: 1.35;
   letter-spacing: -0.02em;
 
@@ -49,7 +49,7 @@
 @mixin typo-display-2($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 45px;
-  font-weight: 400;
+  font-weight: $mm-font-weight;
   line-height: 48px;
 
   @if $colorContrast {
@@ -60,7 +60,7 @@
 @mixin typo-display-1($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 34px;
-  font-weight: 400;
+  font-weight: $mm-font-weight;
   line-height: 40px;
 
   @if $colorContrast {
@@ -71,7 +71,7 @@
 @mixin typo-headline($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 24px;
-  font-weight: 400;
+  font-weight: $mm-font-weight;
   line-height: 32px;
   -moz-osx-font-smoothing: grayscale;
 
@@ -83,7 +83,7 @@
 @mixin typo-title($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: $mm-font-weight-medium;
   line-height: 1;
   letter-spacing: 0.02em;
 
@@ -95,7 +95,7 @@
 @mixin typo-subhead($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: $mm-font-weight;
   line-height: 24px;
   letter-spacing: 0.04em;
 
@@ -107,7 +107,7 @@
 @mixin typo-subhead-2($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: $mm-font-weight;
   line-height: 28px;
   letter-spacing: 0.04em;
 
@@ -120,9 +120,9 @@
   @include typo-preferred-font($usePreferred);
   font-size: 14px;
   @if $usePreferred {
-    font-weight: 500;
+    font-weight: $mm-font-weight-medium;
   } @else {
-    font-weight: bold;
+    font-weight: $mm-font-weight-bold;
   }
   line-height: 24px;
   letter-spacing: 0;
@@ -135,7 +135,7 @@
 @mixin typo-body-1($colorContrast: false, $usePreferred: false) {
   @include typo-preferred-font($usePreferred);
   font-size: 14px;
-  font-weight: 400;
+  font-weight: $mm-font-weight;
   line-height: 24px;
   letter-spacing: 0;
 
@@ -147,7 +147,7 @@
 @mixin typo-caption($colorContrast: false, $usePreferred: false) {
   @include typo-preferred-font($usePreferred);
   font-size: 12px;
-  font-weight: 400;
+  font-weight: $mm-font-weight;
   line-height: 1;
   letter-spacing: 0;
 
@@ -160,7 +160,7 @@
   @include typo-preferred-font($usePreferred);
   position: relative;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: $mm-font-weight-light;
   font-style: italic;
   line-height: 1.35;
   letter-spacing: 0.08em;
@@ -184,7 +184,7 @@
 @mixin typo-menu($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: $mm-font-weight-medium;
   line-height: 1;
   letter-spacing: 0;
 
@@ -196,7 +196,7 @@
 @mixin typo-button($colorContrast: false, $usePreferred: true) {
   @include typo-preferred-font($usePreferred);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: $mm-font-weight-medium;
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: 0;
@@ -208,7 +208,7 @@
 
 @mixin typo-icon() {
   font-family: 'Material Icons';
-  font-weight: normal;
+  font-weight: $mm-font-weight;
   font-style: normal;
   font-size: 24px;
   line-height: 1;

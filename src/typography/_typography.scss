@@ -21,8 +21,11 @@
   html, body {
     font-family: $performance_font;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: $mm-font-weight;
     line-height: 20px;
+    text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
   }
 
   h1, h2, h3, h4, h5, h6, p {
@@ -90,7 +93,7 @@
 
   a {
     color: $text-link-color;
-    font-weight: 500;
+    font-weight: $mm-font-weight-medium;
   }
 
   blockquote {
@@ -102,7 +105,7 @@
   }
 
   dt {
-    font-weight: 700;
+    font-weight: $mm-font-weight-bold;
   }
 
   address {
@@ -273,27 +276,27 @@
 }
 
 .mdl-typography--font-thin {
-  font-weight: 200 !important;
+  font-weight: $mm-font-weight-thin !important;
 }
 
 .mdl-typography--font-light {
-  font-weight: 300 !important;
+  font-weight: $mm-font-weight-light !important;
 }
 
 .mdl-typography--font-regular {
-  font-weight: 400 !important;
+  font-weight: $mm-font-weight !important;
 }
 
 .mdl-typography--font-medium {
-  font-weight: 500 !important;
+  font-weight: $mm-font-weight-medium !important;
 }
 
 .mdl-typography--font-bold {
-  font-weight: 700 !important;
+  font-weight: $mm-font-weight-bold !important;
 }
 
 .mdl-typography--font-black {
-  font-weight: 900 !important;
+  font-weight: $mm-font-weight-black !important;
 }
 
 .material-icons {
